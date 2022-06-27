@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/bottom_sheel_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGREGAR ESPECIALIDAD"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+
+    <Spinner
+        android:id="@+id/spServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/etDescripcionSpe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Descripcion"/>
+
+    <EditText
+        android:id="@+id/etTarifa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Tarifa"/>
+
+    <Button
+        android:id="@+id/btAgregarEsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17a2b8"
+        android:text="Agregar"/>
+
+
+
+
+
+</LinearLayout>
